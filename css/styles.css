@@ -1,0 +1,16 @@
+#boxes {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+li img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}

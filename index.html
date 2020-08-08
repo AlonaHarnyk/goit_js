@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.3/dist/basicLightbox.min.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <!-- for script2 -->
+  <h2>Task 2</h2>
+  <div id="controls">
+    <input type="number" min="0" max="100" step="1" class="js-input" />
+    <button type="button" data-action="create">Создать</button>
+    <button type="button" data-action="destroy">Очистить</button>
+  </div>
+  <div id="boxes"></div>
+
+  <!-- for script3 -->
+  <h2>Task 3</h2>
+  <form id="search-form">
+    <input type="text" name="query" autocomplete="off" placeholder="Search images..." />
+  </form>
+  <ul></ul>
+
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.19/lodash.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.3/dist/basicLightbox.min.js"></script>
+  <script type="module" src="./js/script1.js"></script>
+  <script type="module" src="./js/script2.js"></script>
+  <script type="module" src="./js/script3.js"></script>
+</body>
+
+</html>
